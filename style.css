@@ -25,52 +25,7 @@ body {
     height: 100vh;
 }
 
-.calculator {
-    width: 320px;
-    background: var(--primary-4);
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    overflow: hidden;
-}
 
-.display {
-    background: var(--primary-1);
-    color: var(--primary-4);
-    text-align: right;
-    padding: 20px;
-    font-size: 2rem;
-    word-wrap: break-word;
-}
-
-.keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.key {
-    border: 1px solid var(--primary-5);
-    background: var(--primary-2);
-    color: var(--primary-1);
-    font-size: 1.4rem;
-    padding: 20px;
-    text-align: center;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-
-.key.operator {
-    background: var(--primary-3);
-    color: var(--primary-4);
-}
-
-.key.clear {
-    background: var(--primary-6);
-    color: var(--primary-4);
-}
-
-.key:active {
-    background: var(--primary-5);
-}
 
 /* adjust layout for the simple HTML form */
 body {
