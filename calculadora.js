@@ -13,10 +13,10 @@ case "multiplicar":
 resultado = num1 * num2;
 break;
 case "dividir":
-resultado = num2 !== 0 ? num1 / num2 : "Erro: divisão por zero";
+resultado = num2 !== 0 ? num1 / num2:"Erro: divisão por zero";
 break;
 default:
 resultado = "Operação inválida";
 }
-    document.getElementById("resultado").innerText = "Resultado: " + resultado;
+document.getElementById("resultado").innerText="resultado:"+resultado;
 }

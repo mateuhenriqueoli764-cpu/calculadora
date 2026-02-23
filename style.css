@@ -1,15 +1,13 @@
-/* Minimal calculator stylesheet using root variables for primary colors */
-:root {
-    /* six primary colors */
-    --primary-1: #2E3A59;   /* dark blue */
-    --primary-2: #4A90E2;   /* light blue */
-    --primary-3: #F5A623;   /* amber */
-    --primary-4: #FFFFFF;   /* white */
-    --primary-5: #F0F0F0;   /* light gray */
-    --primary-6: #D0021B;   /* red for accents */
-}
 
-/* basic reset */
+:root {
+    
+    --primary-1: #2E3A59;   
+    --primary-2: #4A90E2;  
+    --primary-3: #F5A623;  
+    --primary-4: #FFFFFF; 
+    --primary-5: #F0F0F0;  
+    --primary-6: #D0021B;  
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,20 +21,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #d2f8e3;
 }
-
-
-
-/* adjust layout for the simple HTML form */
 body {
     flex-direction: column;
 }
-
 h1 {
+    background-color: #5e9cda;
     margin-bottom: 20px;
     color: var(--primary-1);
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-
 .container {
     background: var(--primary-4);
     padding: 30px;
@@ -64,23 +61,18 @@ button {
     font-size: 1rem;
     border-radius: 6px;
     cursor: pointer;
-    transition: background 0.2s;
 }
-
 button:hover {
     background: var(--primary-3);
 }
-
 button:active {
     background: var(--primary-6);
 }
-
 #resultado {
     margin-top: 10px;
     font-weight: bold;
     color: var(--primary-1);
 }
-
 @media (max-width: 360px) {
     .container {
         width: 100%;
