@@ -1,6 +1,6 @@
 function calcular(operacao) {
-const num1 = parseFloat(document.getElementById("num1").value);
-const num2 = parseFloat(document.getElementById("num2").value);
+let num1 = parseFloat(document.getElementById("num1").value);
+let num2 = parseFloat(document.getElementById("num2").value);
 let resultado;
 switch (operacao) {
 case "somar":
